@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body > div {
+        border: solid 1px green;
+        display:flex;
+        padding: 1.5rem;
+        justify-content: space-between;
+        align-items: center;
+      }
+      div > div {
+        width: 100px;
+        height: 100px;
+        border: solid 1px black;
+      }
+      div > div:nth-child(1) {
+        background-color: red;
+      }
+      div > div:nth-child(2) {
+        background-color: white;
+        width: 50px;
+      }
+      div > div:nth-child(3) {
+        background-color: blue;
+        height: 50px;
+      }
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    </style>
+  </head>
+  <body>
+    <div><! Green Border>
+      <div></div><! Solid Red Square>
+      <div></div><! Solid White Rectangle>
+      <div></div><! Solid Blue Rectangle>
+    <script src="script.js"></script>
+  </body>
+</html>
